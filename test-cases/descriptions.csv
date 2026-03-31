@@ -11,6 +11,7 @@ RMLTC0004a-JSON,"Two column mapping, from one row table to two different triples
 RMLTC0004b-JSON,"One column mapping, presence of rml:termType rml:Literal on rml:subjectMap","Tests: (1) one column mapping (2) the presence of rml:termType rml:Literal on rml:subjectMap, which is invalid"
 RMLTC0005a-JSON,Typing of resources,Tests the typing of resources
 RMLTC0006a-JSON,"Use of rml:constant in rml:subjectMap, rml:predicateMap, rml:objectMap and rml:graphMap","Tests the use of rml:constant in rml:subjectMap, rml:predicateMap, rml:objectMap and rml:graphMap"
+RMLTC0006b-JSON,"Omit logical source with rml:constant in rml:subjectMap, rml:predicateMap, rml:objectMap and rml:graphMap","Tests the omission of the rml:logicalSource when using only rml:constant in rml:subjectMap, rml:predicateMap, rml:objectMap and rml:graphMap"
 RMLTC0007a-JSON,Typing resources by relying on rdf:type predicate,Tests the typing resources by relying on rdf:type predicate
 RMLTC0007b-JSON,Assigning triples to Named Graphs,Tests the generation of triples to a named graph
 RMLTC0007c-JSON,"One row mapping, using rml:class","Tests subjectmap with more than one class IRIs, rml:class"
