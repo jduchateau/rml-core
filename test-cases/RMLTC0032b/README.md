@@ -1,12 +1,12 @@
 ## RMLTC0032b
 
-**Title**: "Constant template mapping can omit logical source"
+**Title**: "Constant template mapping cannot omit logical source"
 
-**Description**: "Test a Triples Map with only constant template and constant expressions can omit logical source"
+**Description**: "Test a Triples Map with only constant template and constant expressions cannot omit logical source"
 
 **Default Base IRI**: http://example.com/
 
-**Error expected?** No
+**Error expected?** Yes
 
 **Mapping**
 ```
@@ -24,10 +24,5 @@
   ].
 
 
-```
-
-**Output**
-```
-<http://example.com/Gaston> <http://www.w3.org/2000/01/rdf-schema#label> "Gaston Lagaffe"@fr-BE .
 ```
 
